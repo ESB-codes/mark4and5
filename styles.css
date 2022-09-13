@@ -1,0 +1,146 @@
+:root{
+    --primary-color: #7c3aed;
+    --grey: #e5e7eb;
+    
+}
+
+h1{
+    color: var(--primary-color)
+}
+
+.navbar{
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+}
+
+.lists{
+    text-align: right;
+}
+
+.list-item-inline{
+    color: white;
+    display: inline;
+    text-decoration: none;
+    padding: 1rem 2rem;
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.ekam-image{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.quote{
+    /* display: inline; */
+    /* margin-left: 2rem;
+    margin-top: -30rem;    */
+    margin-right: 10rem;
+    /* padding-top: -20rem; */
+    font-weight: bold; 
+    text-align: center;
+    
+}
+
+.header .quote{
+    text-align: right;
+}
+
+.header .ekam-image{
+    text-align: center;
+    display: block;
+}
+
+.ekam{
+    color: var(--primary-color);
+}
+
+.container{
+    padding: 2rem 1rem;
+}
+
+.container-center{
+    margin: auto;
+    max-width: 600px;
+}
+
+footer{
+    background-color: #7c3aed;
+    padding:3rem 1rem;
+}
+
+.grey{
+    background-color: var(--grey) ;
+}
+
+.heading{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+
+}
+
+footer-header{
+    color: green;
+    font-weight: bold;
+}
+
+link-heading{
+    color: green;
+}
+
+
+.heading{
+    font-size: larger;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.conversation {
+    color: white
+}
+
+#primary-link{
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    padding: 0.7rem;
+    color: white;
+
+}
+
+#secondary-link{
+    border: 1px solid var(--grey);
+    color: var(--primary-color);
+    background-color: var(--grey);
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.6rem;
+
+
+}
+
+#secondary-link:hover{
+    color: black;
+}
+
+#primary-link:hover{
+    color: black;
+}
+
+.projects{
+    color: black;
+    text-align: center;
+}
+
+#active{
+    font-weight: bold;
+}
