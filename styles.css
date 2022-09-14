@@ -1,3 +1,4 @@
+
 :root{
     --primary-color: #7c3aed;
     --grey: #e5e7eb;
@@ -30,6 +31,7 @@ h1{
 .link{
     text-decoration: none;
     color: white;
+  
 }
 
 .ekam-image{
@@ -38,8 +40,11 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+  padding-top: 2rem;
+  border-radius: 50%;
+/*   object-fit: cover; */
 }
-}
+
 
 .quote{
     /* display: inline; */
@@ -147,4 +152,8 @@ link-heading{
 
 #active{
     font-weight: bold;
+}
+
+.link:hover{
+color:black;
 }
