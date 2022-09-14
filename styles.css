@@ -86,7 +86,10 @@ h1{
 
 footer{
     background-color: #7c3aed;
-    padding:3rem 1rem;
+    padding:2rem 1rem;
+    bottom:0;
+    left:0;
+   
 }
 
 .grey{
@@ -113,7 +116,7 @@ link-heading{
 
 
 .heading{
-    font-size: larger;
+    font-size: large;
     color: black;
     margin-top: 0px;
     padding-top: 0px;
@@ -138,6 +141,7 @@ link-heading{
     margin-left: 1rem;
     border-radius: 0.2rem;
     padding: 0.6rem;
+    border: 1px solid black
 
 
 }
@@ -162,3 +166,9 @@ link-heading{
 .link:hover{
 color:black;
 }
+
+.blog-heading{
+    font-weight: 510;
+    color: black;
+}
+
