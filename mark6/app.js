@@ -4,7 +4,7 @@ let output= document.querySelector("#box")
 console.log(output)
 
 
-let api="	https://api.funtranslations.com/translate/minion.json";
+let api="	https://api.funtranslations.com/translate/minion.json"
 
 function errorHandler(error){
     console.log("the error here is: "+ error)
@@ -18,7 +18,7 @@ function translate(){
         .then(res=>res.json())
         .then(data=> {
             console.log(data)
-            // output.innerHTML=data.contents.translated;
+            output.innerHTML=data.contents.translated;
         })
         
         .catch(errorHandler)
