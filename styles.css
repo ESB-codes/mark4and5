@@ -19,6 +19,7 @@ h1{
     color: white;
     border-bottom-left-radius: 1rem;
     padding: 1rem;
+    margin-bottom: 10px;
 }
 
 .lists{
@@ -40,14 +41,15 @@ h1{
 }
 
 .ekam-image{
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  padding-top: 2rem;
+    margin-bottom: 0px;
+  /* padding-top: 2rem; */
   border-radius: 50%;
-/*   object-fit: cover; */
+  object-fit: cover;
 }
 
 
